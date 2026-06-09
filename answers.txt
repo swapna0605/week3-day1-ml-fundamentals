@@ -1,0 +1,59 @@
+1. What is Machine Learning?
+
+Machine Learning (ML) is a branch of Artificial Intelligence (AI) that enables computers to learn patterns from data and make decisions or predictions without being explicitly programmed for every task. Instead of following fixed instructions, machine learning systems improve their performance by analyzing data and learning from experience. Machine learning is widely used in modern technology because it can process large amounts of data quickly and identify patterns that may not be obvious to humans.
+
+There are different types of machine learning, including supervised learning, unsupervised learning, and reinforcement learning. In supervised learning, models are trained using labeled data, where the correct answers are already known. In unsupervised learning, the model discovers hidden patterns without labeled outputs. Reinforcement learning focuses on learning through rewards and penalties.
+
+Machine learning is used in many real-world applications such as recommendation systems, spam detection, fraud detection, image recognition, speech recognition, medical diagnosis, and self-driving cars. It helps organizations make better decisions, automate tasks, and improve efficiency. As technology continues to advance, machine learning is becoming an essential part of many industries and everyday applications.
+
+2. What is Linear Regression?
+
+Linear Regression is one of the simplest and most widely used machine learning algorithms. It is a supervised learning technique used to predict continuous numerical values based on the relationship between one or more input variables and an output variable. The goal of linear regression is to find the best-fitting straight line that represents the relationship between the features and the target variable.
+
+In linear regression, the input variables are called independent variables or features, while the output variable is called the dependent variable or label. The algorithm calculates coefficients and an intercept that define the equation of the line. These values help determine how changes in input features affect the predicted output.
+
+For example, in a student performance dataset, study hours, attendance, and assignments can be used to predict marks. If study hours increase, the model may predict higher marks. Linear regression is popular because it is easy to understand, easy to implement, and computationally efficient.
+
+It is commonly used in business forecasting, sales prediction, house price prediction, salary estimation, and academic performance analysis. Although simple, it provides a strong foundation for understanding more advanced machine learning algorithms.
+
+3. What are Features?
+
+Features are the input variables or independent variables used by a machine learning model to make predictions. They represent the information that helps the model understand patterns within the dataset. Features are one of the most important components of any machine learning project because the quality and relevance of features directly affect model performance.
+
+In a student performance dataset, Study_Hours, Attendance, and Assignments are examples of features. These variables provide information about student behavior and performance. The machine learning model uses these features to predict the target variable, which in this case is Marks.
+
+Features can be numerical, categorical, textual, or even image-based. Numerical features include values such as age, salary, or study hours. Categorical features include labels such as gender, city, or product category. Selecting the right features is known as feature selection and is an important step in the machine learning workflow.
+
+Good features improve prediction accuracy and help the model learn meaningful patterns. Poor or irrelevant features can reduce performance and lead to incorrect predictions. Therefore, understanding and selecting appropriate features is a critical part of building successful machine learning models.
+
+4. What are Labels?
+
+Labels are the target variables or output values that a machine learning model aims to predict. In supervised learning, labels are provided along with the training data so that the model can learn the relationship between input features and expected outputs. Labels serve as the correct answers that guide the learning process.
+
+In the student performance dataset used in this assignment, Marks is the label because it is the value being predicted. The features such as Study_Hours, Attendance, and Assignments are used as inputs, while Marks is the output. During training, the model learns how these features influence the label and uses this knowledge to make future predictions.
+
+Labels can be numerical or categorical depending on the problem. Numerical labels are used in regression problems, while categorical labels are used in classification problems. Examples include predicting house prices, exam scores, or sales figures for regression, and predicting spam emails, disease categories, or customer segments for classification.
+
+Accurate labels are essential for building effective machine learning models. Incorrect or inconsistent labels can confuse the model and reduce prediction accuracy. Therefore, ensuring label quality is an important part of data preparation and machine learning development.
+
+5. What is the Difference Between Training Data and Testing Data?
+
+Training data and testing data are two important parts of a machine learning dataset. They are used for different purposes during the model development process. The training dataset is used to teach the model, while the testing dataset is used to evaluate how well the model performs on unseen data.
+
+During training, the machine learning algorithm learns patterns and relationships from the training data. It adjusts its internal parameters to minimize prediction errors and improve performance. The model becomes familiar with the examples contained in the training dataset.
+
+The testing dataset is kept separate from the training process. After the model has been trained, it is evaluated using the testing data. Since the model has never seen this data before, the testing results provide a realistic measure of how well the model can generalize to new situations.
+
+In this assignment, the dataset was split into 80% training data and 20% testing data. This is a common practice in machine learning. A good model should perform well on both training and testing data. If it performs well only on training data but poorly on testing data, it may be overfitting and not generalizing effectively.
+
+6. Where is Machine Learning Used in Real Life?
+
+Machine learning is used extensively in many industries and everyday applications. One of the most common examples is recommendation systems used by platforms such as Netflix, YouTube, and online shopping websites. These systems analyze user behavior and recommend content or products that match individual preferences.
+
+In healthcare, machine learning helps doctors diagnose diseases, analyze medical images, and predict patient outcomes. In finance, it is used for fraud detection, credit scoring, risk assessment, and stock market analysis. Banks use machine learning to identify suspicious transactions and improve security.
+
+Machine learning is also widely used in transportation. Self-driving cars rely on machine learning algorithms to recognize objects, understand traffic conditions, and make driving decisions. Navigation applications use machine learning to predict traffic and suggest optimal routes.
+
+Other applications include speech recognition, language translation, facial recognition, cybersecurity, customer service chatbots, and social media content recommendations. Businesses use machine learning to improve decision-making, automate repetitive tasks, and gain insights from data.
+
+As technology continues to evolve, machine learning is becoming increasingly important in solving complex problems and creating intelligent systems that improve efficiency, accuracy, and user experience.
